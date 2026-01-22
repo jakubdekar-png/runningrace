@@ -1,50 +1,50 @@
 public class Runner {
-    private String name;
-    private String surname;
-    private int age;
-    private double time;
+    private String Name;
+    private String Surname;
+    private int Age;
+    private double Time;
 
-    public Runner(String name, String surname, int age, double time) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-        this.time = time;
+    public Runner(String Name, String Surname, int Age, double Time) {
+        this.Name = Name;
+        this.Surname = Surname;
+        this.Age = Age;
+        this.Time = Time;
     }
 
     public String getName() {
-        return name;
+        return Name;
     }
 
     public String getSurname() {
-        return surname;
+        return Surname;
     }
 
     public int getAge() {
-        return age;
+        return Age;
     }
 
     public double getTime() {
-        return time;
+        return Time;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String Name) {
+        this.Name = Name;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setSurname(String Surname) {
+        this.Surname = Surname;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int Age) {
+        this.Age = Age;
     }
 
-    public void setTime(double time) {
-        this.time = time;
+    public void setTime(double Time) {
+        this.Time = Time;
     }
 
     @Override
     public String toString() {
-        return "Runner{name='" + name + "', surname='" + surname + "', age=" + age + ", time=" + time + "}";
+        return "Runner{Name="+ Name + ",Surname=" + Surname + ",Age=" + Age + ",Time=" + Time +"}";
     }
 }
